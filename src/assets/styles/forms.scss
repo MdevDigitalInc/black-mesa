@@ -7,7 +7,7 @@ form {
 
 /* stylelint-disable */
 /* Disabled because it is valid and I need this level of control*/
-.mdev-error {
+.blk-error {
   border-top: 4px solid red !important;
   border-bottom: 4px solid red !important;
   color: red!important;
@@ -89,13 +89,13 @@ textarea {
 
 /* Form Scaffolding */
 
-.mdev-form-group {
+.blk-form-group {
   width: 100%;
   position: relative;
   text-align: left;
 }
 
-.mdev-action-group {
+.blk-action-group {
   width: 100%;
   position: relative;
 }

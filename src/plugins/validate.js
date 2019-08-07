@@ -20,7 +20,7 @@ var ValidatePlugin = {
     for (i = 0; i < payload.length; i++){
       if (payload[i].value === ""){
         errorPresent = true;
-        this.addClass(payload[i], 'mdev-error');
+        this.addClass(payload[i], 'blk-error');
       }
     }
 
@@ -46,7 +46,7 @@ var ValidatePlugin = {
         errorPresent = false;
       }
       else {
-        this.addClass(payload[i], 'mdev-error');
+        this.addClass(payload[i], 'blk-error');
         errorPresent = true;
       }
     }
@@ -74,7 +74,7 @@ var ValidatePlugin = {
         errorPresent = false;
       }
       else {
-        this.addClass(payload[i], 'mdev-error');
+        this.addClass(payload[i], 'blk-error');
         errorPresent = true;
       }
     }
@@ -181,11 +181,11 @@ var ValidatePlugin = {
   },
 
   clearErrors: function(){
-    var errorEl = document.querySelectorAll('.mdev-error');
+    var errorEl = document.querySelectorAll('.blk-error');
     // If errors present
     if (errorEl.length > 0) {
       for (var i=0; i <= errorEl.length; i++) {
-        this.removeClass(errorEl[i], 'mdev-error');
+        this.removeClass(errorEl[i], 'blk-error');
       }
     }
   }

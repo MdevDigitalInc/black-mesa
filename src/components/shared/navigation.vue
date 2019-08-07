@@ -1,13 +1,13 @@
 <template lang="pug">
   //- Nav element with Aria
-  nav.mdev-main-nav(aria-role="navigation" role="navigation")
+  nav.blk-main-nav(aria-role="navigation" role="navigation")
     //- Wrapper Class
-    .mdev-main-wrapper.flex.flex-nowrap.flex-hor-between.flex-vert-end
+    .blk-main-wrapper.flex.flex-nowrap.flex-hor-between.flex-vert-end
       //- Logo Link
-      a(:href="homeLink" :title="homeTitle" class="mdev-main-nav-branding")
+      a(:href="homeLink" :title="homeTitle" class="blk-main-nav-branding")
         img(:src="loadImage(homeBrand)")
       //- Actual navigational links in loop
-      .mdev-main-nav-links.u-uppercase
+      .blk-main-nav-links.u-uppercase
         router-link(
           v-for="link in links"
           :to="link.route"
@@ -61,7 +61,7 @@ export default{
 /*--------------------------------------*/
 /* Main Component Styles                */
 /*--------------------------------------*/
-.mdev-main-nav {
+.blk-main-nav {
   width: 100%;
   position: fixed;
   top: 0;
@@ -75,7 +75,7 @@ export default{
     width: 100%;
   }
 
-  .mdev-main-nav-branding {
+  .blk-main-nav-branding {
     max-width: 83px;
     min-width: 73px;
     height: auto;
@@ -89,11 +89,11 @@ export default{
     }
   }
 
-  .mdev-main-nav-links {
+  .blk-main-nav-links {
     color: $color-brand-primary;
   }
 
-  .mdev-main-nav-links a {
+  .blk-main-nav-links a {
     margin: 0 10px;
     text-shadow: 1px 1px 3px rgba(0,0,0,0);
     transition: all, .3s;
@@ -108,7 +108,7 @@ export default{
   }
 }
 
-.mdev-main-nav-visibility {
+.blk-main-nav-visibility {
   background: rgba(51,51,51,.6);
 
   &:hover {

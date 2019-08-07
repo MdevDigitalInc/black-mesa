@@ -1,5 +1,5 @@
 <template lang="pug">
-  section.mdev-main-content
+  section.blk-main-content
     h1
       |404 Page Of Doom
 </template>

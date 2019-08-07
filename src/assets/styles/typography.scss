@@ -123,7 +123,7 @@ h6,
   @include font-size($h6-font-sizes);
 }
 
-.mdev-main-nav-links {
+.blk-main-nav-links {
   @include font-size($link-font-sizes);
 }
 
@@ -141,7 +141,7 @@ a {
   }
 }
 
-.mdev-hero-text {
+.blk-hero-text {
   @include font-size($h1-font-sizes);
   line-height: 120%;
   color: $color-brand-primary;

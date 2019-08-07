@@ -1,6 +1,6 @@
 <template lang="pug">
   //- Wrapper Container
-  section.mdev-main-content.u-text-center
+  section.blk-main-content.u-text-center
     //- Hero
     hero-main
     //- Main Footer

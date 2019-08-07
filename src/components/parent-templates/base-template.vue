@@ -1,5 +1,5 @@
 <template lang="pug">
-  section.mdev-main-content
+  section.blk-main-content
     //- Use comments witn `-`
     //- This omits them from output.
     h1

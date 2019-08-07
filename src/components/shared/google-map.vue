@@ -1,6 +1,6 @@
 <template>
       <!-- Map Container for Maps API -->
-      <div class="mdev-g-map" id="map"></div>
+      <div class="blk-g-map" id="map"></div>
 </template>
 
 <script>

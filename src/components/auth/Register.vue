@@ -1,5 +1,5 @@
 <template lang="pug">
-  .mdev-main-wrapper
+  .blk-main-wrapper
     h2
       |Register
 

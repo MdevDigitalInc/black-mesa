@@ -1,7 +1,7 @@
 <template>
-  <section class="mdev-full-section">
+  <section class="blk-full-section">
     <!-- Google Maps Container Mask -->
-    <div data-map-active class="mdev-map-location">
+    <div data-map-active class="blk-map-location">
       <!-- Maps Component -->
       <google-map :initMap="animLoaded" :mapData="mapData" v-on:mapIsLoaded="initPresentation" ></google-map>
     </div>
@@ -55,7 +55,7 @@ export default{
 /* Contact--Map Component Styles
 /--------------------------------------*/
 
-.mdev-map-location {
+.blk-map-location {
   width: 100%;
   position: relative;
   left: 0;
@@ -70,7 +70,7 @@ export default{
   }
 }
 
-.mdev-g-map {
+.blk-g-map {
   position: absolute;
   top: 0;
   left: 0;
@@ -90,7 +90,7 @@ export default{
   }
 }
 
-.mdev-full-section {
+.blk-full-section {
   padding-top: 70px;
   margin-top: -70px;
 
@@ -104,7 +104,7 @@ export default{
 .--map-loaded {
   opacity: 1;
 
-  .mdev-g-map {
+  .blk-g-map {
     filter: grayscale(1) blur(0);
   }
 }

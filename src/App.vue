@@ -5,7 +5,7 @@
       title="Skip to main content"
       aria-label="Skip to main content"
       v-on:click.stop.prevent="skipNav"
-      class="mdev-skipnav" tabindex="0")
+      class="blk-skipnav" tabindex="0")
         |Skip To Main Content
 
     //- Main Navigation
@@ -222,7 +222,7 @@ export default {
   position: absolute;
 }
 
-.mdev-skipnav {
+.blk-skipnav {
   display: block;
   position: absolute;
   top: 20px;

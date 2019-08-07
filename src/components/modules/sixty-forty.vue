@@ -1,12 +1,12 @@
 <template lang="pug">
   //- Split component, reversible
-  .mdev-split.flex.flex-hor-between.flex-vert-center(
+  .blk-split.flex.flex-hor-between.flex-vert-center(
     :class="{'--reversed' : reverse , '--top' : top}")
     //- First Slot - Dynamic anim class
-    .mdev-split-6(:class="animClassLeft" v-in-viewport)
+    .blk-split-6(:class="animClassLeft" v-in-viewport)
       slot(name="leftSlot")
     //- Second slot - Dynamic anim class
-    .mdev-split-4(:class="animClassRight" v-in-viewport)
+    .blk-split-4(:class="animClassRight" v-in-viewport)
       slot(name="rightSlot")
 </template>
 
@@ -25,7 +25,7 @@
 /*--------------------------------------*/
 /* SIXTY FORTY Component
 /*--------------------------------------*/
-.mdev-split-6 {
+.blk-split-6 {
   width: 60%;
   padding-right: 1vw;
 
@@ -36,7 +36,7 @@
   }
 }
 
-.mdev-split-4 {
+.blk-split-4 {
   width: 40%;
   padding-left: 1vw;
 
@@ -48,7 +48,7 @@
 
 // If prop REVERSED is true, change order of elements
 .--reversed {
-  .mdev-split-6 {
+  .blk-split-6 {
     order: 2;
   }
 }

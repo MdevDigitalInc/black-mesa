@@ -1,8 +1,8 @@
 <template>
-  <section class="mdev-cookies" :class="{'--active' : active }">
-    <div class="mdev-main-wrapper flex flex-vert-center flex-hor-between u-c-white">
+  <section class="blk-cookies" :class="{'--active' : active }">
+    <div class="blk-main-wrapper flex flex-vert-center flex-hor-between u-c-white">
       <!-- Cookies Text Content -->
-      <div class="mdev-cookies-content">
+      <div class="blk-cookies-content">
         <span class="--title u-bold u-uppercase">
           HEADING GOES HERE
         </span>
@@ -11,17 +11,17 @@
         </p>
       </div>
       <!-- Action -->
-      <div class="mdev-cookies-action">
+      <div class="blk-cookies-action">
         <button
           v-on:click="acceptCookie"
-          class="mdev-btn mdev-primary-btn"
+          class="blk-btn blk-primary-btn"
           :class="{ 'fully-in-viewport' : active }">
            BUTTON TEXT HERE
         </button>
       </div>
     </div>
     <!-- Dismiss Button -->
-    <div  v-on:click="dismissCookie" class="mdev-close-cookies u-c-white">
+    <div  v-on:click="dismissCookie" class="blk-close-cookies u-c-white">
       <i class="fas fa-times"></i>
     </div>
   </section>
@@ -61,7 +61,7 @@ export default{
 /*-------------------------------------*/
 /* BASE TEMPLATE Component Styles
 /--------------------------------------*/
-.mdev-cookies {
+.blk-cookies {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -73,7 +73,7 @@ export default{
   opacity: 0;
   transition: all .5s;
 
-  .mdev-cookies-content {
+  .blk-cookies-content {
     width: 80%;
 
     .--title {
@@ -87,7 +87,7 @@ export default{
     }
   }
 
-  .mdev-close-cookies {
+  .blk-close-cookies {
     position: absolute;
     padding: 10px;
     top: 0;

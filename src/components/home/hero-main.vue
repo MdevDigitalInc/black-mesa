@@ -1,5 +1,5 @@
 <template lang="pug">
-  .mdev-image
+  .blk-image
     img(:src="loadImage(homeBrand)")
 </template>
 
@@ -31,7 +31,7 @@ export default {
 /*-------------------------------------*/
 /* HERO MAIN Component Styles
 /--------------------------------------*/
-.mdev-image {
+.blk-image {
   width: 50%;
   margin: 120px auto 60px;
 

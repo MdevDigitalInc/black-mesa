@@ -1,6 +1,6 @@
 <template lang="pug">
   //- Wrapper class
-  .mdev-main-wrapper
+  .blk-main-wrapper
     div
       h2
         |Login>

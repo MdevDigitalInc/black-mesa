@@ -1,5 +1,5 @@
 <template lang="pug">
-  .mdev-main-content
+  .blk-main-content
     contact-map( :animLoaded="anim" )
 </template>
 

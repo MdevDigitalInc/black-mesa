@@ -2,15 +2,15 @@
     div
       h2
         |Black Mesa - Vue.js Boilerplate
-      a.mdev-boilerlink(href="https://github.com/MdevDigitalInc/black-mesa" title="Documentation")
+      a.blk-boilerlink(href="https://github.com/MdevDigitalInc/black-mesa" title="Documentation")
         |Boilerplate Documentation
-      a.mdev-boilerlink(href="https://github.com/MdevDigitalInc/sass-boilerplate" title="Documentation")
+      a.blk-boilerlink(href="https://github.com/MdevDigitalInc/sass-boilerplate" title="Documentation")
         |SASS Boilerplate Documentation
-      a.mdev-boilerlink(href="https://vuejs.org/v2/guide/" title="Documentation")
+      a.blk-boilerlink(href="https://vuejs.org/v2/guide/" title="Documentation")
         |Vue Documentation
-      a.mdev-boilerlink(href="https://github.com/vuejs/awesome-vue" title="Documentation")
+      a.blk-boilerlink(href="https://github.com/vuejs/awesome-vue" title="Documentation")
         |Vue Resources, Plugins & More
-      a.mdev-boilerlink(href="https://webpack.js.org/concepts/" title="Documentation")
+      a.blk-boilerlink(href="https://webpack.js.org/concepts/" title="Documentation")
         |Webpack Documentation
 </template>
 
@@ -53,7 +53,7 @@ export default{
 /*-------------------------------------*/
 /* MAIN FOOTER Component Styles
 /--------------------------------------*/
-.mdev-boilerlink {
+.blk-boilerlink {
   color: $color-brand-primary;
   margin-top: 10px;
   display: block;
